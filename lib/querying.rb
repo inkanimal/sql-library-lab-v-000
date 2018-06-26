@@ -11,7 +11,7 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "SELECT SUM(species) AS value FROM characters
+  "SELECT SUM(species) AS value, count FROM characters
    GROUP BY species"
 end
 
